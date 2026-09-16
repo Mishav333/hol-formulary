@@ -1,0 +1,400 @@
+{
+  "room_meta": {
+    "weight": {
+      "idx": "Weight",
+      "title": "The Weight Room",
+      "dek": "Metabolic and hormonal care, prescriber led. For the season when the scales stop answering to effort alone."
+    },
+    "cosmetic": {
+      "idx": "Skin",
+      "title": "The Cosmetic Quarter",
+      "dek": "Skin and appearance, clinically grounded. Looking like yourself, at your best, for longer."
+    },
+    "private": {
+      "idx": "Desire",
+      "title": "The Private Room",
+      "dek": "Libido and intimacy, handled with discretion and evidence. Spoken about plainly, behind a door that closes."
+    },
+    "recovery": {
+      "idx": "Recovery",
+      "title": "The Recovery Wing",
+      "dek": "Sleep, repair and recovery. Where the body is rebuilt between the demands placed on it."
+    }
+  },
+  "items": [
+    {
+      "name": "Wegovy",
+      "form": "Semaglutide \u00b7 GLP-1 receptor agonist",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A TGA-approved GLP-1 receptor agonist. Slows gastric emptying and acts on appetite-regulating centres in the brain, supporting sustained reduction in food intake under prescriber supervision."
+    },
+    {
+      "name": "Mounjaro",
+      "form": "Tirzepatide \u00b7 dual GIP/GLP-1 receptor agonist",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A TGA-approved dual-incretin agonist, engaging both GIP and GLP-1 receptors. Supports appetite regulation and glycaemic control alongside a prescriber-directed metabolic plan."
+    },
+    {
+      "name": "Ozempic",
+      "form": "Semaglutide \u00b7 GLP-1 receptor agonist",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A TGA-approved GLP-1 receptor agonist, originally indicated for type 2 diabetes management and used under prescriber direction to support appetite and metabolic control."
+    },
+    {
+      "name": "5-Amino-1MQ",
+      "form": "Oral capsule \u00b7 NNMT inhibitor",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "Inhibits the NNMT enzyme, preserving the body's NAD+ pool to support mitochondrial activity and fat metabolism at the cellular level."
+    },
+    {
+      "name": "SLU-PP-332",
+      "form": "Oral capsule \u00b7 ERR\u03b1/\u03b2/\u03b3 agonist",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "An exercise-mimetic compound that activates the ERR family of metabolic receptors, supporting fatty-acid oxidation and mitochondrial function consistent with an aerobic training response."
+    },
+    {
+      "name": "MK-677 (Ibutamoren)",
+      "form": "Oral capsule \u00b7 ghrelin receptor agonist",
+      "rooms": [
+        "weight",
+        "recovery"
+      ],
+      "copy": "A ghrelin receptor agonist that stimulates the body's own growth hormone and IGF-1 pulse, supporting lean tissue and sleep architecture."
+    },
+    {
+      "name": "MK-777 (Acetamoren)",
+      "form": "Oral capsule \u00b7 ghrelin receptor agonist",
+      "rooms": [
+        "weight",
+        "recovery"
+      ],
+      "copy": "A newer-generation ghrelin receptor agonist related to Ibutamoren, engineered for tissue selectivity to support lean mass and recovery-phase sleep without the same appetite signal."
+    },
+    {
+      "name": "AOD-9604",
+      "form": "Cream or injection \u00b7 HGH fragment (176-191)",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A modified fragment of human growth hormone isolated for its role in fat metabolism, without the broader growth-hormone signalling of the full molecule."
+    },
+    {
+      "name": "CJC-1295 (incl. GHRP-2, GHRP-6 and Ipamorelin combinations)",
+      "form": "Cream, injection or cartridge \u00b7 GHRH analogue and GH-releasing peptide blends",
+      "rooms": [
+        "weight",
+        "recovery"
+      ],
+      "copy": "A growth hormone releasing hormone analogue, often paired with a growth hormone releasing peptide. Supports the body's natural GH pulse, feeding both body composition goals and deep sleep quality."
+    },
+    {
+      "name": "GHRP-2 / GHRP-6 / Ipamorelin",
+      "form": "Cream, injection or cartridge \u00b7 growth hormone releasing peptides",
+      "rooms": [
+        "weight",
+        "recovery"
+      ],
+      "copy": "Growth hormone releasing peptides that stimulate the pituitary's own GH secretion, supporting lean tissue maintenance and the deep-sleep phase where physical repair occurs."
+    },
+    {
+      "name": "Tesamorelin",
+      "form": "Injection or cartridge \u00b7 GHRH analogue",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A growth hormone releasing hormone analogue studied specifically for its effect on visceral fat, the metabolically active fat carried around the abdomen."
+    },
+    {
+      "name": "SARMS S-22",
+      "form": "Injection or cartridge \u00b7 selective androgen receptor modulator",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A tissue-selective androgen receptor modulator, engaging muscle and bone androgen receptors while sparing the broader hormonal footprint of anabolic steroids."
+    },
+    {
+      "name": "MOTS-c",
+      "form": "Injection or cartridge \u00b7 mitochondrial-derived peptide",
+      "rooms": [
+        "weight",
+        "recovery"
+      ],
+      "copy": "A peptide encoded within the mitochondria itself. Activates the AMPK energy pathway, supporting insulin sensitivity, fat metabolism and the cell's resilience to metabolic stress."
+    },
+    {
+      "name": "Enclomiphene / Pregnenolone",
+      "form": "Oral capsule \u00b7 hormone optimisation",
+      "rooms": [
+        "weight",
+        "private"
+      ],
+      "copy": "Supports the body's own LH and FSH signalling to lift natural testosterone production, paired with pregnenolone as a precursor to the broader steroid hormone cascade."
+    },
+    {
+      "name": "TRT \u2014 Testosterone Cypionate, Enanthate & Primoteston Depot",
+      "form": "Injection, various esters and carrier oils",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "Prescriber-directed testosterone replacement for confirmed low testosterone, supporting energy, body composition and the broader metabolic picture that hormone decline affects."
+    },
+    {
+      "name": "Nandrolone",
+      "form": "Injection",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "An anabolic androgen used in prescriber-directed protocols to support lean tissue and joint comfort during a hormone optimisation plan."
+    },
+    {
+      "name": "HCG",
+      "form": "Nasal spray, injection or cartridge \u00b7 LH-mimetic",
+      "rooms": [
+        "weight",
+        "private"
+      ],
+      "copy": "Mimics luteinising hormone to maintain the testes' own function and fertility signalling, commonly run alongside testosterone therapy."
+    },
+    {
+      "name": "Infinity BF Shot",
+      "form": "IV shot \u00b7 taurine, acetyl-L-carnitine",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A lipotropic combination that supports the transport of fatty acids into the mitochondria for energy use, taken alongside a broader weight program."
+    },
+    {
+      "name": "Infinity SD Shot",
+      "form": "IV shot \u00b7 methionine, inositol, choline, carnitine, methylcobalamin",
+      "rooms": [
+        "weight"
+      ],
+      "copy": "A classic lipotropic blend supporting fat metabolism and liver-level processing of dietary fat."
+    },
+    {
+      "name": "Infinity Tri-Shot",
+      "form": "IV shot \u00b7 arginine, ornithine, citrulline",
+      "rooms": [
+        "weight",
+        "private"
+      ],
+      "copy": "Amino acids that feed the body's nitric oxide pathway, supporting circulation for both training performance and intimate function."
+    },
+    {
+      "name": "Infinity PRFM Shot",
+      "form": "IV shot \u00b7 carnitine, arginine, B-complex, methylcobalamin",
+      "rooms": [
+        "weight",
+        "recovery"
+      ],
+      "copy": "A performance-and-recovery blend supporting energy metabolism and the amino acid needs of an active training load."
+    },
+    {
+      "name": "Infinity BCAA Shot",
+      "form": "IV shot \u00b7 leucine, isoleucine, valine",
+      "rooms": [
+        "weight",
+        "recovery"
+      ],
+      "copy": "The three branched-chain amino acids most directly used by muscle tissue, supporting lean mass preservation during a calorie deficit and muscle recovery after training."
+    },
+    {
+      "name": "Phosphatidylcholine + Deoxycholic Acid",
+      "form": "Injection \u00b7 localised lipolysis",
+      "rooms": [
+        "weight",
+        "cosmetic"
+      ],
+      "copy": "An injectable combination used to break down and clear stubborn localised fat deposits, most often used to refine areas that resist diet and training alone."
+    },
+    {
+      "name": "Glutathione",
+      "form": "Injection \u00b7 master antioxidant",
+      "rooms": [
+        "cosmetic",
+        "recovery"
+      ],
+      "copy": "The body's own master antioxidant, supporting skin clarity and tone while helping neutralise oxidative stress at the cellular level."
+    },
+    {
+      "name": "Infinity Biotin Shot",
+      "form": "IV shot \u00b7 biotin (vitamin B7)",
+      "rooms": [
+        "cosmetic"
+      ],
+      "copy": "Supports the keratin infrastructure behind hair, skin and nail strength."
+    },
+    {
+      "name": "Infinity PIU Shot",
+      "form": "IV shot \u00b7 dexpanthenol, lysine, glycine, proline, niacinamide",
+      "rooms": [
+        "cosmetic"
+      ],
+      "copy": "Delivers amino acid building blocks for the body's own collagen production, supporting skin structure from the inside."
+    },
+    {
+      "name": "Melanotan II",
+      "form": "Injection or cartridge \u00b7 melanocortin agonist",
+      "rooms": [
+        "cosmetic",
+        "private"
+      ],
+      "copy": "A melanocortin receptor agonist studied for its effect on skin pigmentation, with a secondary action on the same libido pathway targeted by PT-141."
+    },
+    {
+      "name": "KPV",
+      "form": "Oral capsule \u00b7 anti-inflammatory tripeptide",
+      "rooms": [
+        "cosmetic",
+        "recovery"
+      ],
+      "copy": "A fragment of the body's own alpha-MSH hormone, retaining its anti-inflammatory signalling without the pigmentation effect. Studied for calming inflamed skin and gut tissue alike."
+    },
+    {
+      "name": "Bremelanotide (PT-141)",
+      "form": "Nasal spray, injection or cartridge \u00b7 melanocortin agonist",
+      "rooms": [
+        "private"
+      ],
+      "copy": "Acts on melanocortin receptors in the brain's arousal pathway rather than on blood vessels directly, addressing desire at a neurological level."
+    },
+    {
+      "name": "Sildenafil / Tadalafil",
+      "form": "Oral gummy \u00b7 PDE5 inhibitors",
+      "rooms": [
+        "private"
+      ],
+      "copy": "Well-established PDE5 inhibitors that relax blood vessels to support blood flow where it is needed, on the same mechanism used in approved erectile function medicines."
+    },
+    {
+      "name": "Oxytocin",
+      "form": "Nasal spray \u00b7 bonding neuropeptide",
+      "rooms": [
+        "private"
+      ],
+      "copy": "The body's own bonding hormone, released naturally during intimacy and touch. Used to support connection and ease performance-linked anxiety."
+    },
+    {
+      "name": "BPC-157",
+      "form": "Capsule, injection or cartridge \u00b7 gastric pentadecapeptide",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "A stable fragment of a naturally occurring gastric protective protein, studied for its role in supporting the healing of soft tissue, tendon and gut lining."
+    },
+    {
+      "name": "Thymosin Beta-4 (TB4)",
+      "form": "Injection or cartridge \u00b7 actin-regulating peptide",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Regulates the actin protein scaffold cells use to migrate and rebuild, supporting tissue repair after injury or intense physical load."
+    },
+    {
+      "name": "BPC/TB4 and BPC/CJC/Ipamorelin/TB4 blends",
+      "form": "Injection or cartridge \u00b7 combined repair and GH-support blends",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Combination protocols pairing tissue-repair peptides with growth hormone releasing peptides, layering structural repair with the deep-sleep recovery window."
+    },
+    {
+      "name": "Thymosin Alpha-1",
+      "form": "Injection or cartridge \u00b7 immune-modulating peptide",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Supports balanced immune system signalling, studied for its role in immune resilience during periods of physical stress."
+    },
+    {
+      "name": "Epitalon",
+      "form": "Capsule, injection or cartridge \u00b7 pineal peptide",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "A synthetic peptide related to the pineal gland's own signalling, studied for its influence on circadian rhythm and sleep quality."
+    },
+    {
+      "name": "Selank",
+      "form": "Nasal spray \u00b7 anxiolytic nootropic peptide",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "A peptide studied for calming effects on the stress response, supporting mental clarity without sedation."
+    },
+    {
+      "name": "Semax",
+      "form": "Nasal spray \u00b7 nootropic peptide",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Studied for supporting focus and cognitive stamina, often used during periods of high mental load."
+    },
+    {
+      "name": "Dihexa",
+      "form": "Cream \u00b7 angiotensin IV-derived nootropic",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Engages the hepatocyte growth factor pathway associated with synapse formation, studied for cognitive support and mental sharpness."
+    },
+    {
+      "name": "Larazotide",
+      "form": "Capsule \u00b7 zonulin antagonist",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Blocks the zonulin receptor pathway responsible for loosening the gut's tight junctions, supporting gut barrier integrity."
+    },
+    {
+      "name": "Methylene Blue / Ascorbic Acid",
+      "form": "Capsule \u00b7 mitochondrial cofactor",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Supports mitochondrial electron transport at a cellular level, paired with ascorbic acid for antioxidant balance."
+    },
+    {
+      "name": "NAD+ / NMN (with or without Resveratrol)",
+      "form": "Capsule, injection or IV \u00b7 NAD+ precursor",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Replenishes the NAD+ coenzyme every cell depends on for energy production, supporting cellular resilience as natural NAD+ levels decline with age."
+    },
+    {
+      "name": "TB4 Frag (aa1-4 / aa17-23)",
+      "form": "Capsule \u00b7 tissue repair fragment",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "An isolated fragment of Thymosin Beta-4 targeting its tissue-repair signalling specifically."
+    },
+    {
+      "name": "Vitamin & Mineral IV Therapy",
+      "form": "IV or injection \u00b7 Ascorbic Acid, B-Complex, B-Complex Plus, Calcium Gluconate, Glutamine, Glycine, Lysine, Magnesium Chloride/Sulphate, Methylcobalamin (B12), Myer's Cocktail, NAD+, Selenium, Taurine, Vitamin D, Zinc",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "Foundational infusion therapy replenishing the vitamins and minerals most depleted by stress, training load and disrupted sleep, supporting energy, immune resilience and recovery between demands."
+    },
+    {
+      "name": "Infinity CYF / EB / GB / Methyl B12 / NAD++ / RCVR / RRR Shots",
+      "form": "IV shots \u00b7 targeted B-vitamin, amino acid and mineral blends",
+      "rooms": [
+        "recovery"
+      ],
+      "copy": "A family of targeted infusion blends, each combining B-vitamins, amino acids and minerals for a specific recovery need: calm and sleep support, energy, general wellbeing, or post-exertion recovery."
+    }
+  ]
+}
