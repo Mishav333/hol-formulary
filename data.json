@@ -152,7 +152,8 @@
       "name": "Nandrolone",
       "form": "Injection",
       "rooms": [
-        "weight"
+        "weight",
+        "recovery"
       ],
       "copy": "An anabolic androgen used in prescriber-directed protocols to support lean tissue and joint comfort during a hormone optimisation plan."
     },
@@ -163,7 +164,7 @@
         "weight",
         "private"
       ],
-      "copy": "Mimics luteinising hormone to maintain the testes' own function and fertility signalling, commonly run alongside testosterone therapy."
+      "copy": "Mimics luteinising hormone to maintain the testes' own natural testosterone production during a TRT protocol, supporting the libido benefit of therapy rather than letting it fade as the body's own signalling switches off."
     },
     {
       "name": "Infinity BF Shot",
@@ -302,9 +303,10 @@
     },
     {
       "name": "BPC/TB4 and BPC/CJC/Ipamorelin/TB4 blends",
-      "form": "Injection or cartridge \u00b7 combined repair and GH-support blends",
+      "form": "Injection or cartridge · combined repair and GH-support blends",
       "rooms": [
-        "recovery"
+        "recovery",
+        "weight"
       ],
       "copy": "Combination protocols pairing tissue-repair peptides with growth hormone releasing peptides, layering structural repair with the deep-sleep recovery window."
     },
